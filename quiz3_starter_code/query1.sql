@@ -1,0 +1,1 @@
+SELECT `population` FROM  bsg_planets WHERE `name` ='Caprica ';

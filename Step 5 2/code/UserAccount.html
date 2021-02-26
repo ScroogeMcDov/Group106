@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<!-- DISPLAYS THE USER'S PAST AND CURRENT WEATHER.
+A SUBPAGE OF USER: User/UserWeather -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/sign.css">
+    <title>Title</title>
+</head>
+<body>
+
+<!--<h1>Weather Vault ® </h1>-->
+
+<h1>My Page </h1>
+<div class="topnav">
+    <a href="./index.html">Homepage</a>
+    <a href="UserSignUp.html">Sign Up</a>
+    <a href="UserLogin.html">Sign In</a>
+    <a href="UserWeather.html">Weather</a>
+    <a href="UserLocation.html">location</a>
+    <a href="UserAccount.html">My page</a>
+    <a href="search.html">search</a>
+    <br>
+</div>
+<div>
+    <P> User Name: Arnold Scribbler</P>
+    <p> locationID: 1234 </p>
+    <p> Temperature: 8 ℃ / 45 F </p>
+    <p> Climate: Weather Highlights</p>
+    <p> isGuide
+        <label>
+            <input type="radio" name="choice-radio">
+            Yes
+        </label>
+        <label>
+            <input type="radio" name="choice-radio">
+            No
+        </label>
+    </p>
+</div>
+
+<div class="Edit">
+    <a href="EditUserT.html">Add delete or update Table</a><br>
+    <a href="EditUserT.html">search</a>
+    <br>
+</div>
+<table style="width:100%">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>locationID</th>
+        <th>Temperature</th>
+        <th>Climate</th>
+        <th>isGuide</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>0001</td>
+        <td>54</td>
+        <td>Highlights</td>
+        <td>yes</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>0002</td>
+        <td>50</td>
+        <td>Highlights</td>
+        <td>no</td>
+    </tr>
+</table>
+<br>
+<br>
+<p>Delete Account</p>
+<label>
+    <span><input id="inputFirstName" type="text"  style="width:200px; height:20px;" class="text-center" required="" placeholder="Enter First Name"></span><br>
+
+    <span><input id="inputLastName" type="text" style="width:200px; height:20px;" class="text-center" required="" placeholder="Enter LastName"></span><br>
+    </label>
+
+
+    <P> Note:this action will delete all your account information and location stuff associated with it. </P>
+    <div align="center">
+        <input type="button" onclick="location.href =''" value="delete " >
+    </div>
+
+</body>
